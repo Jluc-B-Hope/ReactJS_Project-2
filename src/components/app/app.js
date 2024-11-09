@@ -12,11 +12,6 @@ import ItemDetails, {Record} from "../item-details/item-details";
 import SwapiService from "../../services/swapi-service";
 import ErrorBoundry from "../error-boundry";
 
-
-
-
-
-
 export default class App extends Component{
     swapiService = new SwapiService();
 
